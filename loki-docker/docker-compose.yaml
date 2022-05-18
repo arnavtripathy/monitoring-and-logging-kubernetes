@@ -26,6 +26,6 @@ services:
     ports:
       - "0.0.0.0:3000:3000"
     volumes:
-      - /opt/loki/grafana_data:/var/lib/grafana # Can change this as per needed
+      - /opt/loki/grafana:/var/lib/grafana # Can change this as per needed
     networks:
       - loki
